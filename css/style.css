@@ -1,0 +1,655 @@
+body,html{
+    scroll-behavior: unset !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+
+/* ========================= navbar start here ================================ */
+.nav-main{
+    padding: 50px  0;
+    background-color: rgba(85, 10, 156, 0.795);
+}
+.nav-main.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+    padding: 15px 0;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.common-btn a{
+    padding: 15px 42px ;
+    background-color: #6A4DF4;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.common-btn a:hover{
+    color: #fff;
+    background-color: #2d0dca;
+}
+.nav-link{
+    text-transform: capitalize;
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.nav-link:hover{
+    color: red;
+
+}
+
+/* ========================= banner start here ================================ */
+
+#banner{
+    padding: 186px 0 150px 0;
+}
+.banner-content h1{
+    font-size: 75px ;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: 'Inter', sans-serif;
+}
+.banner-content p {
+    font-size: 16px ;
+    font-weight: 400;
+    line-height: 26px ;
+    font-family: 'Inter', sans-serif;
+    color: #737373;
+    margin: 20px 0 30px 0;
+}
+/* ========================= counter start here ================================ */
+
+#counter .row {
+    background-color: #F8F6FE;
+    padding: 20px 0;
+    align-items: center;
+}
+.row-a{
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    color: #6A4DF4;
+    transition: all linear 0.3s ;
+    -webkit-transition: all linear 0.3s ;
+    -moz-transition: all linear 0.3s ;
+    -ms-transition: all linear 0.3s ;
+    -o-transition: all linear 0.3s ;
+}
+.row-a:hover{
+    color: #2205b4;
+}
+.row-h2{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 38px;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+.row span{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #151515;
+}
+.row h3{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #737373;
+    text-transform: capitalize;
+    padding: 20px 0;
+    line-height: 24px;
+}
+.rating{
+    display: flex;
+    color: #FFAC4A;
+    column-gap: 2px ;
+}
+.row-b{
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6A4DF4;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+}
+.row-b::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    left: 0;
+    top: 25px;
+    background-color: #5c41e4;
+    opacity: 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.row-b:hover::after{
+    opacity: 1;
+}
+/* ========================= service start here ================================ */
+
+.service-heading{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.row{
+    padding: 50px 0 103px 0;
+}
+.service-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    font-family: 'Inter', sans-serif;
+    line-height: 24px;
+}
+.service-item{
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 0 50px;
+}
+.service-img{
+    text-align: center;
+}
+.service-details h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+.service-details p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+    line-height: 24px;
+}
+/* ========================= work start here ================================ */
+
+#work .row{
+    background-color: #F3F3F3;
+}
+.work-main{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    background-color: #F3F3F3;
+}
+.work-main h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #A1A1A1;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    transition: all linear 0.3s ;
+    -webkit-transition: all linear 0.3s ;
+    -moz-transition: all linear 0.3s ;
+    -ms-transition: all linear 0.3s ;
+    -o-transition: all linear 0.3s ;
+}
+.work-main h4:hover{
+    color: #6A4DF4;
+    cursor: pointer;
+}
+.card-body h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #151515;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #151515;
+    font-family: 'Inter', sans-serif;
+   line-height: 26px;
+}
+
+/* ========================= agenc start here ================================ */
+
+.agenc-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-main{
+    width: 100%;
+    height: 200px;
+}
+.agenc-heading h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+.agenc-heading p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #737373;
+    font-family: 'Inter', sans-serif;
+    line-height: 26px;
+}
+.abc-wrapper{
+    gap: 80px;
+    display: flex;
+}
+.abc{
+    width: 344px;
+    padding-top: 150px;
+    word-wrap: wrap;
+}
+.abc-main h4{
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    font-family: 'Inter', sans-serif;
+}
+.abc-main p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    font-family: 'Inter', sans-serif;
+    line-height: 26px;
+}
+.one{
+    width: 100%;
+    height: 100px;
+}
+/* ========================= client review start here ================================ */
+#review{
+    padding: 100px 0;
+}
+.review-item{
+    width: 100%;
+    /* height: 250px; */
+    /* background-color: red; */
+    margin-top: 100px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.review-item p{
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7B7B7B;
+    line-height: 26px;
+    font-family: 'Inter', sans-serif;
+}
+.client-info{
+    display: flex;
+    padding-top: 32px;
+    align-items: center;
+}
+.client-img{
+    padding-right: 20px;
+}
+.name-passion h2{
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #232323;
+}
+.name-passion h4{
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7B7B7B;
+    padding-top: 5px;
+}
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    left: 0;
+}
+.slick-dots button{
+    display: none;
+}
+.slick-dots li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0000003d;
+    position: relative;
+    cursor: pointer;
+}
+.slick-dots .slick-active{
+    background-color: blueviolet;
+}
+/* .slick-dots li::after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+} */
+
+.review-wrapper .slick-center .review-item{
+    /* background-color: green; */
+    margin-top: 20px;
+}
+/* ========================= bottom to top start here ================================ */
+
+.bottom-to-top{
+    height: 50px;
+    width: 50px;
+    /*border-radius: 50%;
+    background-color: green;
+    */position: fixed;
+    right: 30px;
+    bottom: 10px ;
+    cursor: pointer;
+    display: none;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.bottom-to-top i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    padding: 1px 0 ;
+    background-color: #2205b4;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.bottom-to-top i:hover{
+    color: #ffffff67;
+}
+/* ========================= preloader start here ================================ */
+
+.preloader-main{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000f1;
+    position: fixed;
+    z-index: 99999;display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  #loader {
+      display: block;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      width: 150px;
+      height: 150px;
+      margin: -75px 0 0 -75px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #9370DB;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+  }
+  #loader:before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #BA55D3;
+      -webkit-animation: spin 3s linear infinite;
+      animation: spin 3s linear infinite;
+  }
+  #loader:after {
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #FF00FF;
+      -webkit-animation: spin 1.5s linear infinite;
+      animation: spin 1.5s linear infinite;
+  }
+  @-webkit-keyframes spin {
+      0%   {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+      }
+      100% {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+      }
+  }
+  @keyframes spin {
+      0%   {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+      }
+      100% {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+      }
+  }
+
+/* ==========Design  Css Starts===========*/
+#design{
+    padding: var(--section-padd) 0;
+    background: #F3F3F3;
+}
+.design__left{
+    margin-top: 177px;
+}
+#design .common__para{
+    padding: 0 146px 0 0;
+    text-align: left;
+}
+#design .common__heading{
+    text-align: left;
+}
+#design__form{
+    width: 450px;
+    height: 500px;
+    padding: 61px 43px;
+    background-color: var(--white) !important;
+    border-radius: 10px;
+}
+.design__form__head{
+    font-family: var(--inter);
+    font-weight: var(--bold);
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--dark);
+
+}
+.form-label{
+    font-family: var(--inter);
+font-style: var(--regular);
+font-weight: 500;
+font-size: var(--parafont);
+line-height: var(--para-lineheight);
+color: var(--dark);
+}
+.form-control::placeholder{
+    padding: 15px 0!important;
+    font-family: var(--inter);
+    font-weight: var(--regular);
+    font-size: var(--parafont);
+    line-height: var(--para-lineheight);
+    color: #D0D0D0;
+}
+.form__btn{
+    background-color: var(--btn-color) !important;
+    color: var(--white);
+    margin-top: 15px;
+}
+/* ==========Design  Css Ends===========*/
+:root{
+    --inter: 'Inter', sans-serif;
+
+    --light:300;
+    --regular:400;
+    --medium: 500;
+    --semibold:600;
+    --bold: 700;
+    --extrabold:800;
+
+    --white: #fff;
+    --btn-color:#6A4DF4;
+    --dark-brown: #737373;
+    --btn-hover: #FFC44A;
+    --dark: #151515;
+
+
+    --parafont: 16px;
+    --para-lineheight:26px;
+    --head3: 25px;
+    --head4: 20px;
+    --nav-font: 18px;
+    --section-head: 45px;
+    --sechead-lineH: 54px;
+
+    --section-padd: 150px;
+
+    --capital:capitalize;
+
+    }
+.common__heading{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    
+}
+.common__para{
+    font-size: 16px;
+    color: #7B7B7B;
+    line-height: 26px;
+}
+
+#footer{
+    padding: 150px 0 90px 0;
+    align-items: center;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+}
+.footer-main{
+    height: 200px;
+    width: 25%;
+}
+.footer-main h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #151515;
+    font-family: 'Inter', sans-serif;
+}
+.footer-main p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Inter', sans-serif;
+    color: #7B7B7B;
+    padding-top: 30px;
+}
+/* ========================= copywrite part start here ================================ */
+
+#copywrite{
+    align-items: center;
+    padding: 48px 0;
+    background-color: blueviolet;
+}
+.copy{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #D0D0D0;
+    font-family: 'Inter', sans-serif;
+}
+/* ========================= navbar start here ================================ */
+/* ========================= navbar start here ================================ */
+
