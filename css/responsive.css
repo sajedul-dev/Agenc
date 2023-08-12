@@ -1,14 +1,412 @@
-/*=================== Extra small device =================== */
 
 /* ================ Extra small device =============== */
-
 @media(max-width:575.98px){
+    /* ================ banner part operation=============== */
+
+    #banner {
+        padding: 20px 0 ;
+    }
+    .banner-content h1 {
+        font-size: 35px;
+    }
     .banner_img img{
-        display: none;
+        height: 400px;
+        width: 300px;
+        padding-top: 50px;
+    }
+    /* ================ counter part operation=============== */
+
+    #counter .row {
+        text-align: center;
+    }
+    .rating{
+        justify-content: center;
+    }
+    .row-h2 {
+        text-align: center;
+        padding-right: 0;
+    }
+    /* ================ service part operation=============== */
+
+    .service-heading {
+        font-size: 35px;
+    }
+    .service-p {
+        font-size: 22px;
+    }
+    /* ================ work part operation=============== */
+    .work-main {
+        row-gap: 25px;
+        flex-direction: column;
+    }
+    .card-body h5 {
+        text-align: center;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    /* ================ agence part operation=============== */
+
+    .agenc-wrapper {
+        flex-direction: column;
+    }
+    .agenc-heading h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+    .agenc-heading p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .abc-wrapper {
+        flex-direction: column;
     }
     .img-box img{
+        width: 280px;
+        height: 300px;
+        padding-left: 35px;
+    }
+    .abc {
+        width: 100%;
+    }
+    .abc-main{
+        text-align: center;
+    }
+    .abc-img{
+        text-align: center;
+    }
+    .abc-wrapper {
+        row-gap: 15px;
+    }
+    .row{
+        padding: 50px 0;
+    }
+    /* ================ client part operation=============== */
+
+    #review {
         display: none;
     }
+    /* ================ design part operation=============== */
+
+    #design {
+        padding: 25px 0;
+    }
+    #design__form {
+        width: 300px;
+        height: 600px;
+    }
+    .row h3 {
+        font-size: 18px;
+        padding: 18px 0;
+    }
+    .row {
+        padding: 2px 0;
+    }
+    #design .common__para {
+        padding: 0 25px;
+    }
+    #design .common__heading {
+        text-align: center;
+    }
+    /* ================ footer part operation=============== */
+
+    #footer{
+        display: none;
+    }
+    /* ================ copywrite part operation=============== */
+    #copywrite{
+        background-color: blueviolet;
+    }
+    #copywrite p{
+        padding: 25px 0;
+        color: #000;
+    }
+}
+
+/* ======================= Small device ============== */
+
+@media(min-width:576px) and (max-width:767.98px){
+        /* ================ banner part operation=============== */
+    
+        #banner {
+            padding: 20px 0 ;
+        }
+        .banner-content h1 {
+            font-size: 35px;
+        }
+        .banner_img img{
+            height: 400px;
+            width: 300px;
+            padding-top: 50px;
+        }
+        /* ================ counter part operation=============== */
+    
+        #counter .row {
+            text-align: center;
+        }
+        .rating{
+            justify-content: center;
+        }
+        .row-h2 {
+            text-align: center;
+            padding-right: 0;
+        }
+        /* ================ service part operation=============== */
+    
+        .service-heading {
+            font-size: 35px;
+        }
+        .service-p {
+            font-size: 22px;
+        }
+        /* ================ work part operation=============== */
+        .work-main {
+            row-gap: 25px;
+            flex-direction: column;
+        }
+        .card-body h5 {
+            text-align: center;
+            font-size: 24px;
+            line-height: 24px;
+        }
+        /* ================ agence part operation=============== */
+    
+        .agenc-wrapper {
+            padding: 25px 0;
+        }
+        .agenc-heading h1 {
+            font-size: 34px;
+            text-align: center;
+        }
+        .agenc-heading p {
+            font-size: 18px;
+            text-align: center;
+        }
+        .abc-wrapper {
+            flex-direction: column;
+        }
+        .img-box img{
+            width: 280px;
+            height: 300px;
+            padding-left: 35px;
+        }
+        .abc {
+            width: 100%;
+            height: 230px;
+        }
+        .abc-main{
+            text-align: center;
+            justify-content: center;
+        }
+        .abc-img{
+            text-align: center;
+            padding-top: 140px;
+        }
+        .abc-wrapper {
+            row-gap: 15px;
+        }
+        .row{
+            padding: 50px 0;
+        }
+        /* ================ client part operation=============== */
+    
+        #review {
+            display: none;
+        }
+        /* ================ design part operation=============== */
+    
+        #design {
+            padding: 25px 0;
+        }
+        #design__form {
+            margin: 0 auto;
+            width: 500px;
+            height: 600px;
+        }
+        .row h3 {
+            font-size: 18px;
+            padding: 18px 0;
+        }
+        .row {
+            padding: 2px 0;
+        }
+        #design .common__para {
+            padding: 0 25px;
+        }
+        #design .common__heading {
+            text-align: center;
+            padding-top: 79px;
+        }
+        /* ================ footer part operation=============== */
+        
+        .footer-main p {
+            font-size: 10px;
+            display: inline-block;
+        }  
+        .footer-main{
+            margin: 0 auto;
+        }
+        .footer-wrapper {
+            gap: 10px;
+        }
+        /* ================ copywrite part operation=============== */
+        #copywrite{
+            background-color: blueviolet;
+        }
+        #copywrite p{
+            padding: 25px 0;
+            color: #000;
+        }
+    
+}
+
+/*=================== Medium device =================== */
+
+@media(min-width:768px) and (max-width:991.98px){
+
+        /* ================ banner part operation=============== */
+    
+        #banner {
+            padding: 20px 0 ;
+        }
+        .banner-content h1 {
+            font-size: 35px;
+        }
+        .banner_img img{
+            height: 600px;
+            width: 600px;
+            padding-top: 50px;
+        }
+        /* ================ counter part operation=============== */
+    
+        #counter .row {
+            text-align: center;
+        }
+        .rating{
+            justify-content: center;
+        }
+        .row-h2 {
+            text-align: center;
+            padding-right: 0;
+        }
+        /* ================ service part operation=============== */
+    
+        .service-heading {
+            font-size: 35px;
+            padding-top: 159px;
+        }
+        .service-p {
+            font-size: 22px;
+        }
+        /* ================ work part operation=============== */
+        .work-main {
+            row-gap: 25px;
+            flex-direction: column;
+        }
+        .card-body h5 {
+            text-align: center;
+            font-size: 24px;
+            line-height: 24px;
+        }
+        /* ================ agence part operation=============== */
+    
+        .agenc-wrapper {
+            padding: 25px 0;
+        }
+        .agenc-heading h1 {
+            font-size: 34px;
+            text-align: center;
+        }
+        .agenc-heading p {
+            font-size: 18px;
+            text-align: center;
+        }
+        .abc-wrapper {
+            flex-direction: column;
+        }
+        .img-box img{
+            width: 280px;
+            height: 300px;
+            padding-left: 35px;
+        }
+        .abc {
+            width: 100%;
+            height: 230px;
+        }
+        .abc-main{
+            text-align: center;
+            justify-content: center;
+        }
+        .abc-img{
+            text-align: center;
+            padding-top: 140px;
+        }
+        .abc-wrapper {
+            row-gap: 15px;
+        }
+        .row{
+            padding: 50px 0;
+        }
+        /* ================ client part operation=============== */
+        .name-passion h2 {
+            font-size: 16px;
+        }
+        .review-item p {
+            padding: 10px 0;
+        }
+        .row {
+            padding: 65px 0;
+        }
+        .service-heading {
+            padding-top: 180px;
+        }
+    
+        /* ================ design part operation=============== */
+    
+        #design {
+            padding: 25px 0;
+        }
+        #design__form {
+            margin: 0 auto;
+            width: 700px;
+            height: 650px;
+        }
+        .row h3 {
+            font-size: 45px;
+            padding: 18px 0;
+        }
+        .row {
+            padding: 2px 0;
+        }
+        #design .common__para {
+            padding: 0 25px;
+        }
+        #design .common__heading {
+            font-size: 24px;
+            text-align: center;
+            padding-top: 79px;
+        }
+        /* ================ footer part operation=============== */
+        
+        .footer-main p {
+            font-size: 14px;
+            display: inline-block;
+        }  
+        .footer-main{
+            margin: 0 auto;
+        }
+        .footer-wrapper {
+            gap: 10px;
+        }
+        /* ================ copywrite part operation=============== */
+        #copywrite{
+            background-color: blueviolet;
+        }
+        #copywrite p{
+            padding: 25px 0;
+            color: #000;
+            font-size: 18px;
+        }
+
 }
 
 

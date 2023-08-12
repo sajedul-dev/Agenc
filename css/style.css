@@ -35,19 +35,19 @@ h1,h2,h3,h4,h5,h6,p{
     text-align: center;
 }
 .common-btn a{
-    padding: 15px 42px ;
+    padding: 15px 40px ;
     background-color: #6A4DF4;
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
-    color: #fff;
+    color: var(--white);
     font-family: 'Inter', sans-serif;
     display: inline-block;
     border-radius: 10px;
     transition: all linear 0.3s;
 }
 .common-btn a:hover{
-    color: #fff;
+    color: var(--white);
     background-color: #2d0dca;
 }
 .nav-link{
@@ -56,7 +56,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 18px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
-    color: #fff;
+    color: var(--white);
     transition: all linear 0.3s;
     -webkit-transition: all linear 0.3s;
     -moz-transition: all linear 0.3s;
@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* ========================= banner start here ================================ */
 
 #banner{
-    padding: 186px 0 150px 0;
+    padding: 150px 0;
 }
 .banner-content h1{
     font-size: 75px ;
@@ -163,7 +163,9 @@ h1,h2,h3,h4,h5,h6,p{
     opacity: 1;
 }
 /* ========================= service start here ================================ */
-
+#service{
+    padding: 50px 0;
+}
 .service-heading{
     font-size: 45px;
     font-weight: 700;
@@ -185,7 +187,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .service-item{
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
     padding: 0 50px;
 }
 .service-img{
@@ -197,18 +199,19 @@ h1,h2,h3,h4,h5,h6,p{
     color: #151515;
     font-family: 'Inter', sans-serif;
     text-transform: capitalize;
-    padding-top: 40px;
+    padding: 40px 0;
 }
 .service-details p{
     font-size: 16px;
     font-weight: 400;
     color: #737373;
     font-family: 'Inter', sans-serif;
-    padding-top: 20px;
     line-height: 24px;
 }
 /* ========================= work start here ================================ */
-
+#work{
+    padding: 50px 0;
+}
 #work .row{
     background-color: #F3F3F3;
 }
@@ -246,16 +249,17 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: 400;
     color: #151515;
     font-family: 'Inter', sans-serif;
-   line-height: 26px;
+    line-height: 26px;
 }
 
 /* ========================= agenc start here ================================ */
-
+#agenc{
+    padding: 50px 0;
+}
 .agenc-wrapper{
     display: flex;
     justify-content: space-between;
 }
-
 .group-main{
     width: 100%;
     height: 200px;
@@ -281,7 +285,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .abc{
     width: 344px;
-    padding-top: 150px;
+    padding-top: 100px;
     word-wrap: wrap;
 }
 .abc-main h4{
@@ -304,7 +308,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ========================= client review start here ================================ */
 #review{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .review-item{
     width: 100%;
@@ -372,29 +376,97 @@ h1,h2,h3,h4,h5,h6,p{
 .review-wrapper .slick-center .review-item{
     margin-top: 20px;
 }
-/* ========================= bottom to top start here ================================ */
+/* ========================= Design  part Starts=======================*/
+#design{
+    padding: 50px 0;
+}
+.design__left{
+    margin-top: 177px;
+}
+#design .common__para{
+    padding: 0 146px 0 0;
+    text-align: left;
+}
+#design .common__heading{
+    text-align: left;
+}
+#design__form{
+    width: 450px;
+    height: 600px;
+    padding: 61px 43px;
+    background-color: var(--white) !important;
+    border-radius: 10px;
+}
+.design__form__head{
+    font-family: var(--inter);
+    font-weight: var(--bold);
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--dark);
 
-.bottom-to-top{
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background-color: blueviolet;
-    right: 30px;
-    bottom: 50px;
-    position: fixed;
+}
+.form-label{
+    font-family: var(--inter);
+font-style: var(--regular);
+font-weight: 500;
+font-size: var(--parafont);
+line-height: var(--para-lineheight);
+color: var(--dark);
+}
+.form-control::placeholder{
+    padding: 15px 0!important;
+    font-family: var(--inter);
+    font-weight: var(--regular);
+    font-size: var(--parafont);
+    line-height: var(--para-lineheight);
+    color: #D0D0D0;
+}
+.form__btn{
+    background-color: var(--btn-color) !important;
+    color: var(--white);
+    margin-top: 15px;
+}
+/* ============================== footer part start here ==================== */
+
+#footer{
+    padding: 50px 0;
+}
+.footer-wrapper{
     display: flex;
+    justify-content: space-between;
+    gap: 25px;
     align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all linear 0.2s;
 }
-.bottom-to-top:hover{
-    background-color: red;
+.footer-main{
+    height: 200px;
+    width: 30%;
 }
-.bottom-to-top i{
-    font-size: 24px;
-    color: #fff;
+.footer-main h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #151515;
+    font-family: 'Inter', sans-serif;
 }
+.footer-main p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Inter', sans-serif;
+    color: #7B7B7B;
+    padding: 15px 0;
+}
+
+/* ========================= copywrite part start here ================================ */
+#copywrite{
+    background-color: blueviolet;
+}
+#copywrite p{
+    text-align: center;
+    color: var(--white);
+    padding: 25px 0;
+}
+
+
 /* ========================= preloader start here ================================ */
 
 .preloader-main{
@@ -478,58 +550,43 @@ h1,h2,h3,h4,h5,h6,p{
       }
   }
 
-/* ==========Design  Css Starts===========*/
-#design{
-    padding: var(--section-padd) 0;
-    background: #F3F3F3;
-}
-.design__left{
-    margin-top: 177px;
-}
-#design .common__para{
-    padding: 0 146px 0 0;
-    text-align: left;
-}
-#design .common__heading{
-    text-align: left;
-}
-#design__form{
-    width: 450px;
-    height: 500px;
-    padding: 61px 43px;
-    background-color: var(--white) !important;
-    border-radius: 10px;
-}
-.design__form__head{
-    font-family: var(--inter);
-    font-weight: var(--bold);
-    font-size: 30px;
-    line-height: 36px;
-    color: var(--dark);
+  /* ========================= bottom to top start here ================================ */
 
+.bottom-to-top{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    right: 30px;
+    bottom: 50px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all linear 0.2s;
 }
-.form-label{
-    font-family: var(--inter);
-font-style: var(--regular);
-font-weight: 500;
-font-size: var(--parafont);
-line-height: var(--para-lineheight);
-color: var(--dark);
+.bottom-to-top:hover{
+    background-color: red;
 }
-.form-control::placeholder{
-    padding: 15px 0!important;
-    font-family: var(--inter);
-    font-weight: var(--regular);
-    font-size: var(--parafont);
-    line-height: var(--para-lineheight);
-    color: #D0D0D0;
+.bottom-to-top i{
+    font-size: 24px;
+    color: #fff;
 }
-.form__btn{
-    background-color: var(--btn-color) !important;
-    color: var(--white);
-    margin-top: 15px;
+
+.common__heading{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    
 }
-/* ==========Design  Css Ends===========*/
+.common__para{
+    font-size: 16px;
+    color: #7B7B7B;
+    line-height: 26px;
+}
+/* ====================== css variable====================== */
+
 :root{
     --inter: 'Inter', sans-serif;
 
@@ -560,61 +617,5 @@ color: var(--dark);
     --capital:capitalize;
 
     }
-.common__heading{
-    font-size: 45px;
-    font-weight: 700;
-    color: #151515;
-    
-}
-.common__para{
-    font-size: 16px;
-    color: #7B7B7B;
-    line-height: 26px;
-}
 
-#footer{
-    padding: 150px 0 90px 0;
-    align-items: center;
-}
-.footer-wrapper{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    text-align: center;
-}
-.footer-main{
-    height: 200px;
-    width: 25%;
-}
-.footer-main h3{
-    font-size: 16px;
-    font-weight: 600;
-    color: #151515;
-    font-family: 'Inter', sans-serif;
-}
-.footer-main p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    font-family: 'Inter', sans-serif;
-    color: #7B7B7B;
-    padding-top: 30px;
-}
-/* ========================= copywrite part start here ================================ */
-
-#copywrite{
-    align-items: center;
-    padding: 48px 0;
-    background-color: #000;
-}
-.copy{
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-}
-/* ========================= navbar start here ================================ */
-/* ========================= navbar start here ================================ */
 
