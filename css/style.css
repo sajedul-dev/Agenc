@@ -1,5 +1,5 @@
 body,html{
-    scroll-behavior: unset !important;
+    scroll-behavior: smooth;
 }
 *{
     margin: 0;
@@ -18,16 +18,19 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ========================= navbar start here ================================ */
 .nav-main{
-    padding: 50px  0;
+    padding: 15px  0;
     background-color: rgba(85, 10, 156, 0.795);
+}
+.fa-solid, .fas {
+    font-size: 25px;
 }
 .nav-main.fixed{
     position: fixed;
     top: 0;
     width: 100%;
     left: 0;
-    z-index: 999;
-    padding: 15px 0;
+    z-index: 9999;
+    padding: 25px 0;
 }
 .nav_wrapper{
     display: flex;
@@ -85,6 +88,9 @@ h1,h2,h3,h4,h5,h6,p{
     font-family: 'Inter', sans-serif;
     color: #737373;
     margin: 20px 0 30px 0;
+}
+.banner_img img{
+    object-fit: cover;
 }
 /* ========================= counter start here ================================ */
 
@@ -372,7 +378,6 @@ h1,h2,h3,h4,h5,h6,p{
 .slick-dots .slick-active{
     background-color: blueviolet;
 }
-
 .review-wrapper .slick-center .review-item{
     margin-top: 20px;
 }
@@ -403,7 +408,6 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 30px;
     line-height: 36px;
     color: var(--dark);
-
 }
 .form-label{
     font-family: var(--inter);
@@ -465,8 +469,6 @@ color: var(--dark);
     color: var(--white);
     padding: 25px 0;
 }
-
-
 /* ========================= preloader start here ================================ */
 
 .preloader-main{

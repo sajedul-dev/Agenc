@@ -1,18 +1,45 @@
 
 /* ================ Extra small device =============== */
+
 @media(max-width:575.98px){
+
+    /* ================ navbar part operation=============== */
+    .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-toggler i{
+        font-size: 25px;
+        color: #fff;
+    }
+    .common-btn{
+        text-align: center;
+    }
+    .common-btn a {
+        padding: 8px 28px;
+        background-color: blue;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    /* ================ back to top part operation=============== */
+    .bottom-to-top {
+        height: 50px;
+        width: 50px;
+        background-color: goldenrod;
+    }
     /* ================ banner part operation=============== */
 
     #banner {
         padding: 20px 0 ;
     }
+    .banner-content{
+        text-align: center;
+    }
     .banner-content h1 {
         font-size: 35px;
     }
     .banner_img img{
-        height: 400px;
-        width: 300px;
-        padding-top: 50px;
+        width: 100%;
+        padding: 25px 0;
     }
     /* ================ counter part operation=============== */
 
@@ -25,14 +52,24 @@
     .row-h2 {
         text-align: center;
         padding-right: 0;
+        font-size: 30px;
+    }
+    .row span {
+        font-size: 30px;
     }
     /* ================ service part operation=============== */
-
-    .service-heading {
-        font-size: 35px;
+    #service {
+        padding: 25px 0;
     }
-    .service-p {
-        font-size: 22px;
+    .service-heading {
+        font-size: 20px;
+    }
+    .service-details h2 {
+        font-size: 20px;
+        padding: 25px 0;
+    }
+    .service-details{
+        text-align: center;
     }
     /* ================ work part operation=============== */
     .work-main {
@@ -41,8 +78,12 @@
     }
     .card-body h5 {
         text-align: center;
-        font-size: 24px;
+        font-size: 18px;
         line-height: 24px;
+    }
+    .card{
+        width: 100%;
+        margin: 0 auto;
     }
     /* ================ agence part operation=============== */
 
@@ -50,8 +91,9 @@
         flex-direction: column;
     }
     .agenc-heading h1 {
-        font-size: 34px;
+        font-size: 20px;
         text-align: center;
+        line-height: 24px;
     }
     .agenc-heading p {
         font-size: 18px;
@@ -61,9 +103,7 @@
         flex-direction: column;
     }
     .img-box img{
-        width: 280px;
-        height: 300px;
-        padding-left: 35px;
+        width: 100%;
     }
     .abc {
         width: 100%;
@@ -80,66 +120,126 @@
     .row{
         padding: 50px 0;
     }
-    /* ================ client part operation=============== */
-
-    #review {
-        display: none;
+    .abc-main h4 {
+        padding: 20px 0;
+        font-size: 22px;
     }
+    /* ================ client part operation=============== */
+    #review {
+        padding: 25px 0;
+    }
+    .review-item p {
+        padding: 3px 0;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .name-passion h2 {
+        font-size: 10px;
+        padding: 20px 0;
+    }
+    .fa-solid, .fas {
+        font-size: 5px;
+    }
+    .name-passion h4 {
+        padding: 15px 0;
+    }
+
     /* ================ design part operation=============== */
 
     #design {
-        padding: 25px 0;
+        padding: 5px 0;
     }
     #design__form {
-        width: 300px;
-        height: 600px;
+        width: 100%;
+        padding: 70px 20px;
     }
     .row h3 {
         font-size: 18px;
-        padding: 18px 0;
+        padding: 5px 0;
     }
     .row {
         padding: 2px 0;
     }
     #design .common__para {
         padding: 0 25px;
+        text-align: center;
     }
     #design .common__heading {
         text-align: center;
     }
-    /* ================ footer part operation=============== */
-
-    #footer{
-        display: none;
+    .design__left {
+        margin-top: 5px;
     }
+    .form__btn {
+        margin-top: 5px;
+    }
+    /* ================ footer part operation=============== */
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    #footer {
+        padding: 15px 0;
+    }
+    .footer-main {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-main p {
+        padding: 5px 0;
+    }
+
     /* ================ copywrite part operation=============== */
     #copywrite{
-        background-color: blueviolet;
+        background-color: #ebdb34;
     }
     #copywrite p{
-        padding: 25px 0;
-        color: #000;
+        padding: 20px 0;
+        color: #fff;
+        font-weight: 700;
     }
+
 }
 
 /* ======================= Small device ============== */
 
 @media(min-width:576px) and (max-width:767.98px){
-        /* ================ banner part operation=============== */
+
+        /* ================ navbar part operation=============== */
+        .navbar-nav .nav-link {
+            text-align: center;
+        }
+        .navbar-toggler i{
+            font-size: 25px;
+            color: #000;
+        }
+        .common-btn{
+            text-align: center;
+        }
+        .common-btn a {
+            padding: 8px 28px;
+            background-color: #86eb34;
+            font-size: 15px;
+            border-radius: 5px;
+        }
     
+        /* ================ banner part operation=============== */
         #banner {
             padding: 20px 0 ;
+        }
+        .banner-content{
+            text-align: center;
         }
         .banner-content h1 {
             font-size: 35px;
         }
         .banner_img img{
-            height: 400px;
-            width: 300px;
             padding-top: 50px;
+            padding: 25px 0;
+            width: 100%;
         }
         /* ================ counter part operation=============== */
-    
+        
         #counter .row {
             text-align: center;
         }
@@ -168,10 +268,16 @@
             font-size: 24px;
             line-height: 24px;
         }
+        .card{
+            width: 100%;
+            margin: 0 auto;
+        }
+    
         /* ================ agence part operation=============== */
     
         .agenc-wrapper {
             padding: 25px 0;
+            flex-direction: column;
         }
         .agenc-heading h1 {
             font-size: 34px;
@@ -185,9 +291,7 @@
             flex-direction: column;
         }
         .img-box img{
-            width: 280px;
-            height: 300px;
-            padding-left: 35px;
+            width: 100%;
         }
         .abc {
             width: 100%;
@@ -208,18 +312,25 @@
             padding: 50px 0;
         }
         /* ================ client part operation=============== */
-    
-        #review {
-            display: none;
+        .rating i{
+            font-size: 10px;
         }
+        .name-passion h2 {
+            font-size: 15px;
+        }
+        .review-item p{
+            line-height: 18px;
+            font-size: 10px;
+        }
+    
         /* ================ design part operation=============== */
     
         #design {
-            padding: 25px 0;
+            padding: 5px 0;
         }
         #design__form {
             margin: 0 auto;
-            width: 500px;
+            width: 100%;
             height: 600px;
         }
         .row h3 {
@@ -234,7 +345,10 @@
         }
         #design .common__heading {
             text-align: center;
-            padding-top: 79px;
+            padding: 5px 0;
+        }
+        .design__left {
+            margin-top: 3px;
         }
         /* ================ footer part operation=============== */
         
@@ -248,13 +362,20 @@
         .footer-wrapper {
             gap: 10px;
         }
+        .footer-main {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+    
         /* ================ copywrite part operation=============== */
         #copywrite{
-            background-color: blueviolet;
+            background-color: #34eb95;
         }
         #copywrite p{
             padding: 25px 0;
             color: #000;
+            font-weight: 700;
         }
     
 }
@@ -263,21 +384,41 @@
 
 @media(min-width:768px) and (max-width:991.98px){
 
-        /* ================ banner part operation=============== */
+        /* ================ navbar part operation=============== */
+        .navbar-nav .nav-link {
+            text-align: center;
+        }
+        .navbar-toggler i{
+            font-size: 25px;
+            color: #fff;
+        }
+        .common-btn{
+            text-align: center;
+        }
+        .common-btn a {
+            padding: 8px 28px;
+            background-color: gold;
+            font-size: 15px;
+            border-radius: 5px;
+        }
     
+        /* ================ banner part operation=============== */
         #banner {
             padding: 20px 0 ;
+        }
+        .banner-content{
+            text-align: center;
         }
         .banner-content h1 {
             font-size: 35px;
         }
         .banner_img img{
-            height: 600px;
-            width: 600px;
             padding-top: 50px;
+            padding: 25px 0;
+            width: 100%;
         }
         /* ================ counter part operation=============== */
-    
+        
         #counter .row {
             text-align: center;
         }
@@ -292,7 +433,6 @@
     
         .service-heading {
             font-size: 35px;
-            padding-top: 159px;
         }
         .service-p {
             font-size: 22px;
@@ -307,10 +447,16 @@
             font-size: 24px;
             line-height: 24px;
         }
+        .card{
+            width: 100%;
+            margin: 0 auto;
+        }
+    
         /* ================ agence part operation=============== */
     
         .agenc-wrapper {
             padding: 25px 0;
+            flex-direction: column;
         }
         .agenc-heading h1 {
             font-size: 34px;
@@ -324,9 +470,7 @@
             flex-direction: column;
         }
         .img-box img{
-            width: 280px;
-            height: 300px;
-            padding-left: 35px;
+            width: 100%;
         }
         .abc {
             width: 100%;
@@ -347,31 +491,29 @@
             padding: 50px 0;
         }
         /* ================ client part operation=============== */
+        .rating i{
+            font-size: 10px;
+        }
         .name-passion h2 {
-            font-size: 16px;
+            font-size: 15px;
         }
-        .review-item p {
-            padding: 10px 0;
-        }
-        .row {
-            padding: 65px 0;
-        }
-        .service-heading {
-            padding-top: 180px;
+        .review-item p{
+            line-height: 18px;
+            font-size: 10px;
         }
     
         /* ================ design part operation=============== */
     
         #design {
-            padding: 25px 0;
+            padding: 5px 0;
         }
         #design__form {
             margin: 0 auto;
-            width: 700px;
-            height: 650px;
+            width: 100%;
+            height: 600px;
         }
         .row h3 {
-            font-size: 45px;
+            font-size: 18px;
             padding: 18px 0;
         }
         .row {
@@ -381,14 +523,16 @@
             padding: 0 25px;
         }
         #design .common__heading {
-            font-size: 24px;
             text-align: center;
-            padding-top: 79px;
+            padding: 5px 0;
+        }
+        .design__left {
+            margin-top: 3px;
         }
         /* ================ footer part operation=============== */
         
         .footer-main p {
-            font-size: 14px;
+            font-size: 10px;
             display: inline-block;
         }  
         .footer-main{
@@ -397,16 +541,22 @@
         .footer-wrapper {
             gap: 10px;
         }
+        .footer-main {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+    
         /* ================ copywrite part operation=============== */
         #copywrite{
-            background-color: blueviolet;
+            background-color: #34eb95;
         }
         #copywrite p{
             padding: 25px 0;
             color: #000;
-            font-size: 18px;
+            font-weight: 700;
         }
-
+    
 }
 
 

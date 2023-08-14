@@ -33,7 +33,7 @@ $(function(){
       }
       //nav fixed operation
       
-      if( scroll > 130){
+      if( scroll > 100){
         $(".nav-main").addClass("fixed")
       }else{
         $(".nav-main").removeClass("fixed")
